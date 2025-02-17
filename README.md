@@ -108,7 +108,7 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 - Pruning was applied after every **5 epochs** to gradually reduce unnecessary parameters.  
 - Models trained with pruning maintained **~98% accuracy** while using **30% fewer FLOPs**.  
 
-🚀 **Implemented in**: [`prune.py`](src/prune.py)  
+🚀 **Implemented in**: [`prune.py`](src/prune .py)  
 
 ---
 

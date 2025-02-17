@@ -60,7 +60,7 @@ In this project, **data preprocessing** is optimized for **energy-efficient mode
 - Computed per **input-hidden and hidden-output layers** to track efficiency.
 - Accumulated energy usage analyzed across **training epochs**.
 
-🚀 **Implemented in**: [`data_processing.py`](src/data_processing.py)
+🚀 **Implemented in**: [`data_processing.py`](src/energy_estimation.py)
 
 ---
 

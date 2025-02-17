@@ -100,9 +100,9 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 - **Optimizer**: **Adam** (efficient gradient updates)  
 - **Loss Function**: **Softmax Cross-Entropy** (for multi-class classification)  
 - **Training Setup**:  
-  - **50 epochs**, batch size = **64**  
+  - **50 epochs**, batch size = **64, stop when acc = 98% for better comparison**  
   - **Pruning reduces compute by 30%**  
-  - **Learning rate decay** applied for better convergence  
+  - **Optimal learning rate 0.001** 
 
 🔹 **Energy-Aware Pruning Strategy**  
 - Pruning was applied after every **5 epochs** to gradually reduce unnecessary parameters.  

@@ -124,7 +124,8 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 
 ✅ **Energy-Accuracy Tradeoff**: Shows the relationship between computational cost and model accuracy  
 ✅ **Depth vs. Energy Consumption**: Determines the optimal architecture for energy efficiency  
-✅ **Pruning Impact**: Reduces FLOPs while maintaining high accuracy  
+✅ **Pruning Impact**: Reduces **FLOPs by 30%**, lowering computational cost while maintaining accuracy.
+
  
 
 ### **Energy vs Accuracy Tradeoff**

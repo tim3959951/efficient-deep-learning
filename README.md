@@ -38,7 +38,7 @@ This project explores **energy-efficient deep learning** by optimizing **trainin
 
 In this project, **data preprocessing** is optimized for **energy-efficient model training**.
 
-### **✅ Normalization（正規化）**
+### **✅ Normalization **
 - **Image Pixel Scaling**:  
   - **[-1,1] Scaling**: Applied to image datasets to improve network stability.
   - Formula:  
@@ -47,7 +47,7 @@ In this project, **data preprocessing** is optimized for **energy-efficient mode
     \]
   - Implemented in [`data_processing.py`](src/data_processing.py).
 
-### **✅ Standardization（標準化）**
+### **✅ Standardization **
 - **Zero Mean, Unit Variance Transformation**:  
   - Applied to structured input features to ensure stable gradient updates.
   - Formula:  

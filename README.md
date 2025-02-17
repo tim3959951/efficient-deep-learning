@@ -28,6 +28,7 @@ This project explores **energy-efficient deep learning** by optimizing **trainin
 | ├── prune.py         | Pruning techniques to reduce computation     |
 | ├── data_processing.py | Normalize & standardize dataset           |
 | ├── plot_results.py   | Generate accuracy-energy tradeoff plots     |
+| 📂 experiments                 | Model experiments & evaluation |
 | 📂 visualizations     | Stores training plots & energy consumption charts |
 | 📄 requirements.txt   | Python dependencies                         |
 | 📄 README.md          | Project documentation                       |

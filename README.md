@@ -114,9 +114,18 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 
 ## 📉 Training Performance  
 
-| **Accuracy Over Time** | **Energy Consumption Over Depth** |
-|------------------|-----------------------------|
-| ![Accuracy](visualizations/varydepthaccuracy_over_epochs.png) | ![Energy](visualizations/varydepth_energy_vs_accuracy.png) |
+✅ **Finding the Optimal Learning Rate**  
+| **Learning Rate vs. Accuracy** | **Learning Rate vs. Energy Consumption** | **Learning Rate vs. Epochs** |
+|------------------|-----------------------------|-----------------------------|
+| ![LR vs. Accuracy](visualizations/lr_vs_accuracy.png) | ![LR vs. Energy](visualizations/lr_vs_energy.png) | ![LR vs. Epochs](visualizations/lr_vs_epochs.png) |
+
+✅ **FFNN Width vs. Depth Impact on Energy**  
+| **FFNN Depth vs. Energy** | **FFNN Width vs. Energy** |
+|-------------------|-------------------|
+| ![FFNN Depth](visualizations/ffnn_depth_vs_energy.png) | ![FFNN Width](visualizations/ffnn_width_vs_energy.png) |
+
+🚀 **Implemented in**: [`train.py`](src/train.py)  
+
 
 ---
 

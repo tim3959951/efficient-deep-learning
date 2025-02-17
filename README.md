@@ -30,6 +30,7 @@ This project explores **energy-efficient deep learning** by optimizing **trainin
 | ├── plot_results.py   | Generate accuracy-energy tradeoff plots     |
 | 📂 experiments                 | Model experiments & evaluation |
 | 📂 visualizations     | Stores training plots & energy consumption charts |
+| 📄 ResNet_Energy_Efficiency_Pruning.ipynb | Full training pipeline notebook |
 | 📄 requirements.txt   | Python dependencies                         |
 | 📄 README.md          | Project documentation                       |
 

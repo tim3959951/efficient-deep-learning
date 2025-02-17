@@ -47,7 +47,7 @@ In this project, **data preprocessing** is optimized for **energy-efficient mode
     \[
     X' = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
     \]
-  - Implemented in [`data_processing.py`](src/data_processing.py).
+  - Implemented in [`data_processing.py`](src/data_processing .py).
 
 ### **✅ Standardization **
 - **Zero Mean, Unit Variance Transformation**:  

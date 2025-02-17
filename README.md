@@ -119,8 +119,8 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 |------------------|-----------------------------|-----------------------------|
 | ![LR vs. Accuracy](visualizations/lr_vs_accuracy.png) | ![LR vs. Energy](visualizations/lr_vs_energy.png) | ![LR vs. Epochs](visualizations/lr_vs_epochs.png) |
 
-✅ **FFNN Width vs. Depth Impact on Energy**  
-| **FFNN Depth vs. Energy** | **FFNN Width vs. Energy** |
+✅ **FFNN Width vs. Depth Impact on Energy and Epochs**  
+| **FFNN Depth vs. Energy and Rpochs** | **FFNN Width vs. Energy and Epochs** |
 |-------------------|-------------------|
 | ![FFNN Depth](visualizations/ffnn_depth_vs_energy.png) | ![FFNN Width](visualizations/ffnn_width_vs_energy.png) |
 

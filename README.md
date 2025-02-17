@@ -1,6 +1,6 @@
 # ⚡ Efficient Deep Learning: Optimizing Energy Consumption in AI Training
 
-This project explores **energy-efficient deep learning** by optimizing **training cost, accuracy, and computational resources**. Using **ResNet architectures, Xavier initialization, and pruning techniques**, we investigate how model depth, width, and learning rate impact **cumulative energy consumption** while maintaining high accuracy.
+This project explores **energy-efficient deep learning** by optimizing **training cost, accuracy, and computational resources**. Using **ResNet architectures, FFNN architectures, Xavier initialization, and pruning techniques**, we investigate how model depth, width, and learning rate impact **cumulative energy consumption** while maintaining high accuracy.
 
 ---
 

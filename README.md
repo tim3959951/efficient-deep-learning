@@ -129,25 +129,27 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 
 ---
 
+ 
+
 ## 📈 Model Performance & Energy Efficiency  
 
 ✅ **Energy-Accuracy Tradeoff**: Shows the relationship between computational cost and model accuracy  
 ✅ **Depth vs. Energy Consumption**: Determines the optimal architecture for energy efficiency  
-✅ **Pruning Impact**: Reduces **FLOPs by 30%**, lowering computational cost while maintaining accuracy.
-
- 
+✅ **Pruning Impact **: Demonstrates how Pruning affects FLOPs and power consumption.
 
 ### **Energy vs Accuracy Tradeoff**
-| **Varying Model Depth** | **ResNet Shortcut Impact** |
+| **FFNN Depth vs. Energy Consumption** | **ResNet Depth vs. Energy Consumption** |
 |-------------------|-------------------|
-| ![Depth Impact](visualizations/resdepth.png) | ![Shortcut Efficiency](visualizations/resnet_shortcut.jpg) |
+| ![FFNN Energy](visualizations/ffnn_depth_vs_energy2.png) | ![ResNet Energy](visualizations/resnet_depth_vs_energy.png) |
 
-### **Epochs vs Accuracy Comparison**
-| **Fixed Depth** | **Varying Depth** |
-|-------------------|-------------------|
-| ![Fixed Depth](visualizations/width_depth_acc.png) | ![Varying Depth](visualizations/width_depth_epoch.png) |
+
+
+| **No Pruning Energy Consumption (left) vs. FFNN Pruning (right)** |
+|-------------------|
+| ![Pruning Impact](visualizations/ffnn_pruning_vs_no_pruning_energy.png) |
 
 🚀 **Implemented in**: [`evaluate.py`](src/evaluate.py)  
+
 
 ---
 

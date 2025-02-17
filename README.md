@@ -122,7 +122,7 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
 
 ## 📈 Model Performance & Energy Efficiency  
 
-✅ **Confusion Matrix**: Evaluates model classification performance  
+
 ✅ **Energy-Accuracy Tradeoff**: Visualizes computational efficiency  
 ✅ **Depth vs. Energy Consumption**: Determines optimal architecture  
 

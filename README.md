@@ -105,8 +105,8 @@ Our study compared **Feedforward Neural Networks (FFNN)** and **ResNet** in term
   - **Optimal learning rate 0.001** 
 
 🔹 **Energy-Aware Pruning Strategy**  
-- Pruning was applied after every **5 epochs** to gradually reduce unnecessary parameters.  
-- Models trained with pruning maintained **~98% accuracy** while using **30% fewer FLOPs**.  
+- Pruning every 5 epochs → reduces 30% FLOPs, maintains 98% accuracy.
+  
 
 🚀 **Implemented in**: [`prune.py`](src/prune.py)  
 

@@ -44,18 +44,14 @@ In this project, **data preprocessing** is optimized for **energy-efficient mode
 - **Image Pixel Scaling**:  
   - **[-1,1] Scaling**: Applied to image datasets to improve network stability.
   - Formula:  
-    \[
-    X' = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
-    \]
+    $X' = \frac{X - X_{\min}}{X_{\max} - X_{\min}}$
   - Implemented in [`data_processing.py`](src/data_processing.py).
 
 ### **✅ Standardization **
 - **Zero Mean, Unit Variance Transformation**:  
   - Applied to structured input features to ensure stable gradient updates.
   - Formula:  
-    \[
-    X' = \frac{X - \mu}{\sigma}
-    \]
+    $X' = \frac{X - \mu}{\sigma}$
   - Used for non-image datasets.
 
 ### **✅ Energy Consumption Data Handling**
